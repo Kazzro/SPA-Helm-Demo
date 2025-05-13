@@ -1,0 +1,293 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "uuid": "e0db994f-6cfb-4f76-9c1f-2d9261563bed",
+      "username": "Leonard Nimoy",
+      "email": "test@test.test",
+      "password": "password"
+    },
+    {
+      "id": 2,
+      "uuid": "d4d1cfc0-f9e6-4088-b78b-26825c9fcdc4",
+      "username": "Jonathan Frakes",
+      "email": "test2@test.test",
+      "password": "password"
+    },
+    {
+      "id": 3,
+      "uuid": "random  string",
+      "username": "William Shatner",
+      "email": "test3@test.test",
+      "password": "password"
+    },
+    {
+      "id": 4,
+      "uuid": "random  string",
+      "username": "Patrick Stewart",
+      "email": "test4@test.test",
+      "password": "password"
+    }
+  ],
+  "userIdentifications": [
+    {
+      "id": 1,
+      "username": "Leonard Nimoy",
+      "email": "test@test.test"
+    },
+    {
+      "id": 2,
+      "username": "Jonathan Frakes",
+      "email": "test2@test.test"
+    },
+    {
+      "id": 3,
+      "username": "William Shatner",
+      "email": "test3@test.test"
+    },
+    {
+      "id": 4,
+      "username": "Patrick Stewart",
+      "email": "test4@test.test"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "created_at": "2023-09-05 11:30:44.138208+00",
+      "author": "Leonard Nimoy",
+      "correspondent": "",
+      "user_id": "e0db994f-6cfb-4f76-9c1f-2d9261563bed",
+      "content": [
+        {
+          "task": "test the self notes",
+          "status": false
+        }
+      ],
+      "type": "self",
+      "title": "test"
+    },
+    {
+      "id": 2,
+      "created_at": "2023-09-05 11:51:18.880522+00",
+      "author": "Jonathan Frakes",
+      "correspondent": "Leonard Nimoy",
+      "user_id": "d4d1cfc0-f9e6-4088-b78b-26825c9fcdc4",
+      "content": [
+        {
+          "task": "test the received note",
+          "status": false
+        }
+      ],
+      "type": "send",
+      "title": "test from Jonathan Frakes to Leonard Nimoy"
+    },
+    {
+      "id": 3,
+      "author": "Leonard Nimoy",
+      "correspondent": "Jonathan Frakes",
+      "type": "received",
+      "title": "test from Leonard Nimoy to Jonathan Frakes",
+      "content": [
+        {
+          "task": "test the send notes",
+          "status": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "created_at": "2023-09-05 13:02:36.228496+00",
+      "author": "Jonathan Frakes",
+      "correspondent": "",
+      "user_id": "d4d1cfc0-f9e6-4088-b78b-26825c9fcdc4",
+      "content": [
+        {
+          "task": "i did it",
+          "status": false
+        }
+      ],
+      "type": "self",
+      "title": "title"
+    },
+    {
+      "id": 10,
+      "author": "William Shatner",
+      "correspondent": "Jonathan Frakes",
+      "type": "send",
+      "title": "Lets make a new Movie",
+      "content": [
+        {
+          "task": "buy production company",
+          "status": true
+        },
+        {
+          "task": "buy filmset",
+          "status": false
+        },
+        {
+          "task": "hire artists",
+          "status": true
+        },
+        {
+          "task": "story afterwards",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "author": "William Shatner",
+      "correspondent": "",
+      "type": "self",
+      "title": "get fit or die tryin",
+      "content": [
+        {
+          "task": "gym",
+          "status": true
+        },
+        {
+          "task": "gym ",
+          "status": false
+        },
+        {
+          "task": "gym",
+          "status": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "lets do stuff",
+      "content": [
+        {
+          "task": "do",
+          "status": false
+        },
+        {
+          "task": "stuff",
+          "status": false
+        },
+        {
+          "task": "now",
+          "status": false
+        }
+      ],
+      "author": "Jonathan Frakes",
+      "type": "send",
+      "correspondent": "Patrick Stewart"
+    },
+    {
+      "id": 16,
+      "title": "sdfdsfdsfsfds",
+      "content": [
+        {
+          "task": "sd",
+          "status": false
+        },
+        {
+          "task": "fds",
+          "status": false
+        },
+        {
+          "task": "f",
+          "status": false
+        },
+        {
+          "task": "sf",
+          "status": false
+        },
+        {
+          "task": "sdf",
+          "status": false
+        },
+        {
+          "task": "dsf",
+          "status": false
+        },
+        {
+          "task": "s",
+          "status": false
+        },
+        {
+          "task": "fsfsd",
+          "status": false
+        }
+      ],
+      "author": "Jonathan Frakes",
+      "type": "send",
+      "correspondent": "Patrick Stewart"
+    },
+    {
+      "id": 17,
+      "title": "i wanna be done with this...",
+      "content": [
+        {
+          "task": "test this",
+          "status": false
+        },
+        {
+          "task": "test this",
+          "status": true
+        },
+        {
+          "task": "test that",
+          "status": false
+        }
+      ],
+      "author": "Jonathan Frakes",
+      "type": "self",
+      "correspondent": ""
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "Star Trek Franchise",
+      "owner": "Leonard Nimoy",
+      "member": [
+        "William Shatner",
+        "Leonard Nimoy",
+        "Jonathan Frakes",
+        "Patrick Stewart"
+      ],
+      "notes": []
+    },
+    {
+      "id": 2,
+      "name": "Nemesis",
+      "owner": "Patrick Stewart",
+      "member": [
+        "Jonathan Frakes",
+        "Patrick Stewart"
+      ],
+      "notes": []
+    },
+    {
+      "id": 3,
+      "name": "Star Trek",
+      "owner": "William Shatner",
+      "member": [
+        "William Shatner",
+        "Leonard Nimoy"
+      ],
+      "notes": []
+    }
+  ],
+  "counter": [
+    {
+      "counter": 5,
+      "name": "user",
+      "id": 1
+    },
+    {
+      "counter": 32,
+      "id": 2
+    },
+    {
+      "counter": 3,
+      "name": "teams",
+      "id": 3
+    }
+  ]
+}

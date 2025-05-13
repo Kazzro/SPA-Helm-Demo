@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  width: 100%;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 30px;
+  padding: 35px;
+  flex-shrink: 0;
+  flex-wrap: wrap;
+}
+
+.horizontalbar {
+  display: flex;
+  align-items: center;
+}
+
+.horizontalbar button {
+  margin-bottom: 28px;
+}

@@ -1,0 +1,25 @@
+# Default values for my-todo-app.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+app:
+  name: todoapp
+  replicaCount: 1
+
+  image:
+    repository: kazzro/todoapp
+    # no actual repository existing, just a dummy
+    pullPolicy: IfNotPresent
+    tag: latest
+  port: 8080  
+
+postgres:
+  secretName: postgres-secret
+  url: jdbc:postgresql://postgres-service:5432/todoapp
+  port: 5432
+
+service:
+  type: ClusterIP
+  port: 80
+  nodePort: 31514
+
