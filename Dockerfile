@@ -1,3 +1,5 @@
+#TODO add multi stage for building the app
+
 FROM openjdk:21
 VOLUME /tmp
 EXPOSE 8080
