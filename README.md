@@ -1,5 +1,24 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+The app itself is a simple Todo/Note app for managing tasks between multiple users.
+
+This is a proof of concept Demo Project for a single page application using the following technologies:
+#### Frontend:
+- Vue.js 3
+- Vue Router
+- Axios
+- Pinia
+#### Backend:
+- Java Spring Boot
+- Maven
+- Liquibase
+- Hibernate
+#### Dev Ops:
+- Docker
+- Helm / Kubernetes
+#### Testing:
+- JUnit
+- Mockito
+- vitest
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
